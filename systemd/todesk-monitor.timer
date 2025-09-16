@@ -1,0 +1,11 @@
+[Unit]
+Description=Timer for ToDesk Process Monitor
+After=network.target
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Unit=todesk-monitor.service
+
+[Install]
+WantedBy=timers.target
