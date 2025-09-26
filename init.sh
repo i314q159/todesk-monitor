@@ -1,3 +1,7 @@
+sudo apt update
+sudo apt-get install libappindicator3-dev
+# sudo apt-get install ./todesk-v4.7.2.0-amd64.deb
+
 sudo cp ./scripts/todesk_monitor.sh /usr/local/bin/todesk_monitor.sh
 sudo cp ./systemd/todesk-monitor.service /etc/systemd/system/todesk-monitor.service
 sudo cp ./systemd/todesk-monitor.timer /etc/systemd/system/todesk-monitor.timer
